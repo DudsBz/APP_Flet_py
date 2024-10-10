@@ -1,0 +1,2 @@
+Esse é um app mobile, um projeto escolar. Seu objetivo é ajudar estudantes em seus estudos diários, além de simulados e agenda para o mesmo se organizar. 
+É a primeira vez dos desenvolvedores com o Flet, aliás é a primeira vez de um deles com Python, então as expectativas são incríveis.
