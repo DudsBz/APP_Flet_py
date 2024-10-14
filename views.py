@@ -70,3 +70,20 @@ def tela_cadastro(page, senha_row, senha_confirmar_row):
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         vertical_alignment=ft.MainAxisAlignment.CENTER,
     )
+
+def tela_inicial(evento):
+    """
+    Função que retorna a tela inicial
+    """
+    return ft.View()
+
+def tela_usuario(e):
+    pass
+
+def tela_agenda(e):
+    pass
+
+
+
+
+

@@ -17,13 +17,7 @@ def main(page: ft.Page):
     def on_route_change(e):
         page.views.clear()  # Limpa as views para adicionar a nova tela
 
-        if page.route == "/login":
-            page.views.append(tela_login(page, senha_row))
-
-        elif page.route == "/tela_cadastro":
-            page.views.append(tela_cadastro(page, senha_row, senha_confirmar_row))
-
-        elif page.route == "/tela_inicial":
+        if page.route == "/tela_inicial":
             page.views.append(
                 ft.View(
                     "/tela_inicial",
@@ -35,6 +29,13 @@ def main(page: ft.Page):
                     vertical_alignment=ft.MainAxisAlignment.CENTER,
                 )
             )
+
+        elif page.route == "/tela_cadastro":
+            page.views.append(tela_cadastro(page, senha_row, senha_confirmar_row))
+
+        elif page.route == "/login":
+            page.views.append(tela_login(page, senha_row))
+            
         page.update()
 
     page.on_route_change = on_route_change
