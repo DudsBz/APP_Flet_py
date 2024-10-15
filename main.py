@@ -1,6 +1,7 @@
 # main.py
 from flet import *
 import flet as ft
+import sqlite3
 from components import criar_campo_senha  # Importa o componente
 from views import tela_login, tela_cadastro  # Importa as telas
 from handlers import alternar_visibilidade_senha  # Importa os manipuladores de eventos
