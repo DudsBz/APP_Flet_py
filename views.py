@@ -86,6 +86,8 @@ def tela_agenda(e):
 def materias(e):
     pass
 
+def simulados(e):
+    pass
 
 
 
